@@ -1,16 +1,12 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Changes.aspx.cs" Inherits="Changes" %>
+﻿<%@ Page Title="Changes" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeFile="Changes.aspx.cs" Inherits="Changes" %>
 
-<!DOCTYPE html>
-
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-    <title></title>
-</head>
-<body>
-    <form id="form1" runat="server">
-    <div>
-    
-    </div>
-    </form>
-</body>
-</html>
+<asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
+    <h2><%: Title %>.</h2>
+    Changes:<br />
+    1) Changed application name in site.master to my name.<br />
+    2) Made changes to the contact page.<br />
+    3) Created the changes webpage.<br />
+    4) Added all the items that were changed.<br />
+    5) The about page will contain a breif description about this exercise.<br />
+    6) Link to github repository will be added to the contact page.
+</asp:Content>
