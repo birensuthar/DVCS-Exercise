@@ -2,16 +2,14 @@
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <h2><%: Title %>.</h2>
-    <h3>Your contact page.</h3>
+    <h3>Biren Suthar</h3>
     <address>
-        One Microsoft Way<br />
-        Redmond, WA 98052-6399<br />
-        <abbr title="Phone">P:</abbr>
-        425.555.0100
+        Northern Alberta Institute of Technology<br />
+        Digital Media & IT - Application Development.<br />
+        DMIT2018 - Intermediate Application Developement (A01) by Don Welch
     </address>
 
     <address>
-        <strong>Support:</strong>   <a href="mailto:Support@example.com">Support@example.com</a><br />
-        <strong>Marketing:</strong> <a href="mailto:Marketing@example.com">Marketing@example.com</a>
+        <strong>E-mail:</strong>   <a href="mailto:bsuthar2@nait.ca">bsuthar2@nait.ca</a><br />
     </address>
 </asp:Content>
